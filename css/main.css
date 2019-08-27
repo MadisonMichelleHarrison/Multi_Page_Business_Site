@@ -4,19 +4,28 @@ body {
 }
 /* Targeting a class in CSS - every element with the class of header will recieve these CSS rules*/
 .header {
-    background-color: rgb(155, 245, 194);
+    background-color: rgba(155, 245, 194, 0.5);
     overflow: hidden;
 
 }
+/* These CSS rules will be applied when he hover over an anchor element inside of a header will recieve these CSS rules */
 
 .headerLink {
     padding: 14px 16px;
     text-decoration: none;
-    color:black;
+    color: #ffffff;
+    /*
+        red: f*f = 15*15 =255
+        blue: f*f = 15*15 =255
+        green: f*f = 15*15 =255
+
+        255, 255, 255
+        */ 
     font-size: 20pt; 
 }
 
 /* Target an ID in CSS - the element with the ID of homeLink will recieve theses CSS rules */
+.header a:hover
 #homeLink {
     float: left;
 }
